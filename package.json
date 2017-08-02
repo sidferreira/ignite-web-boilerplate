@@ -1,0 +1,56 @@
+{
+  "name": "ignite-ir-web-boilerplate",
+  "description": "React JS version of Infinite Red's hot boilerplate for React Native.",
+  "license": "MIT",
+  "repository": "sidferreira/ignite-ir-web-boilerplate",
+  "homepage": "https://github.com/sidferreira/ignite-ir-web-boilerplate",
+  "version": "2.0.2",
+  "files": [
+    "boilerplate",
+    "commands",
+    "lib",
+    "templates",
+    "boilerplate.js",
+    "ignite.json",
+    "options.js",
+    "plugin.js",
+    "readme.md",
+    "screenExamples.js"
+  ],
+  "author": {
+    "name": "Sid Ferreira",
+    "email": "sid@ferreiraz.com.br",
+    "url": "https://github.com/sidferreira/ignite-ir-web-boilerplate"
+  },
+  "scripts": {
+    "lint": "standard",
+    "test": "jest",
+    "watch": "jest --runInBand --watch",
+    "coverage": "jest --runInBand --coverage",
+    "shipit": "np"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "globals": [
+      "__DEV__",
+      "jasmine",
+      "beforeAll",
+      "afterAll",
+      "test",
+      "expect",
+      "describe"
+    ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "fs-jetpack": "^1.0.0",
+    "jest": "^20.0.4",
+    "np": "^2.15.0",
+    "sinon": "^2.3.1",
+    "standard": "^10.0.2",
+    "tempy": "^0.1.0"
+  },
+  "dependencies": {
+    "ramda": "^0.23.0"
+  }
+}

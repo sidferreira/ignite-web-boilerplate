@@ -1,5 +1,5 @@
 import ReduxPersist from '../Config/ReduxPersist'
-import localForage from 'localForage'
+import localforage from 'localforage'
 import { persistStore } from 'redux-persist'
 import StartupActions from '../Redux/StartupRedux'
 import DebugConfig from '../Config/DebugConfig'
@@ -10,7 +10,7 @@ const updateReducers = (store: Object) => {
   const startup = () => store.dispatch(StartupActions.startup())
 
   // Check to ensure latest reducer version
-  localForage.getItem('reducerVersion').then((localVersion) => {
+  localforage.getItem('reducerVersion').then((localVersion) => {
     if (localVersion !== reducerVersion) {
       if (DebugConfig.useReactotron) {
         console.tron.display({
@@ -25,13 +25,13 @@ const updateReducers = (store: Object) => {
       }
       // Purge store
       persistStore(store, config, startup).purge()
-      localForage.setItem('reducerVersion', reducerVersion)
+      localforage.setItem('reducerVersion', reducerVersion)
     } else {
       persistStore(store, config, startup)
     }
   }).catch(() => {
     persistStore(store, config, startup)
-    localForage.setItem('reducerVersion', reducerVersion)
+    localforage.setItem('reducerVersion', reducerVersion)
   })
 }
 

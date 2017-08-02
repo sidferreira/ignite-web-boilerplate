@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
-import ReduxNavigation from '../Navigation/ReduxNavigation'
+//import ReduxNavigation from '../Navigation/ReduxNavigation'
 import { connect } from 'react-redux'
+import { Route } from 'react-router-dom'
 import StartupActions from '../Redux/StartupRedux'
 import ReduxPersist from '../Config/ReduxPersist'
 
+import LaunchScreen from './LaunchScreen'
 // Styles
 import styles from './Styles/RootContainerStyles'
 
@@ -18,7 +20,7 @@ class RootContainer extends Component {
   render () {
     return (
       <div style={styles.applicationView}>
-        <ReduxNavigation />
+        <Route path="/" exact component={LaunchScreen}/>
       </div>
     )
   }

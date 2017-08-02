@@ -1,5 +1,6 @@
 import '../Config'
 import DebugConfig from '../Config/DebugConfig'
+import { BrowserRouter } from 'react-router-dom'
 import React, { Component } from 'react'
 import { Provider } from 'react-redux'
 import RootContainer from './RootContainer'
@@ -21,7 +22,9 @@ class App extends Component {
   render () {
     return (
       <Provider store={store}>
-        <RootContainer />
+      	<BrowserRouter>
+	        <RootContainer />
+        </BrowserRouter>
       </Provider>
     )
   }

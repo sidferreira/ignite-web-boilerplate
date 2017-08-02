@@ -40,13 +40,16 @@ async function install (context) {
   filesystem.remove(`${process.cwd()}/src/App.css`)
   filesystem.remove(`${process.cwd()}/src/App.js`)
   filesystem.remove(`${process.cwd()}/src/App.test.js`)
-  filesystem.remove(`${process.cwd()}/src/index.css`)
   filesystem.remove(`${process.cwd()}/src/logo.svg`)
 
   // copy our App & Tests directories
   spinner.text = '▸ copying files'
   spinner.start()
   filesystem.copy(`${__dirname}/boilerplate/App`, `${process.cwd()}/src/App`, {
+    overwrite: true,
+    matching: '!*.ejs'
+  })
+  filesystem.copy(`${__dirname}/boilerplate/App/Images`, `${process.cwd()}/public/Images`, {
     overwrite: true,
     matching: '!*.ejs'
   })

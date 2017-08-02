@@ -1,8 +1,8 @@
 export default {
   useFixtures: false,
   ezLogin: false,
-  yellowBox: __DEV__,
-  reduxLogging: __DEV__,
-  includeExamples: __DEV__,
-  useReactotron: __DEV__
+  yellowBox: process.env.NODE_ENV === 'development',
+  reduxLogging: process.env.NODE_ENV === 'development',
+  includeExamples: process.env.NODE_ENV === 'development',
+  useReactotron: false
 }

@@ -1,9 +1,9 @@
 {
-  "name": "ignite-ir-web-boilerplate",
+  "name": "igniteweb-boilerplate",
   "description": "React JS version of Infinite Red's hot boilerplate for React Native.",
   "license": "MIT",
-  "repository": "sidferreira/ignite-ir-web-boilerplate",
-  "homepage": "https://github.com/sidferreira/ignite-ir-web-boilerplate",
+  "repository": "sidferreira/igniteweb-boilerplate",
+  "homepage": "https://github.com/sidferreira/igniteweb-boilerplate",
   "version": "2.0.2",
   "files": [
     "boilerplate",
@@ -20,7 +20,7 @@
   "author": {
     "name": "Sid Ferreira",
     "email": "sid@ferreiraz.com.br",
-    "url": "https://github.com/sidferreira/ignite-ir-web-boilerplate"
+    "url": "https://github.com/sidferreira/igniteweb-boilerplate"
   },
   "scripts": {
     "lint": "standard",

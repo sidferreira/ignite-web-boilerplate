@@ -22,11 +22,11 @@ module.exports = async function (context) {
   const jobs = [
     {
       template: `screen.ejs`,
-      target: `App/Containers/${screenName}.js`
+      target: `src/App/Containers/${screenName}.js`
     },
     {
       template: `screen-style.ejs`,
-      target: `App/Containers/Styles/${screenName}Style.js`
+      target: `src/App/Containers/Styles/${screenName}Style.js`
     }
   ]
 

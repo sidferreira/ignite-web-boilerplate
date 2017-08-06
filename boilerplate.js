@@ -25,7 +25,7 @@ async function install (context) {
 
   const name = parameters.third
   const spinner = print
-    .spin(`using the ${red('Infinite Red')} boilerplate v2 (code name 'Andross')`)
+    .spin(`using the Ignite Web boilerplate v0.1`)
     .succeed()
 
   // attempt to install React Native or die trying
@@ -46,10 +46,6 @@ async function install (context) {
   spinner.text = '▸ copying files'
   spinner.start()
   filesystem.copy(`${__dirname}/boilerplate/App`, `${process.cwd()}/src/App`, {
-    overwrite: true,
-    matching: '!*.ejs'
-  })
-  filesystem.copy(`${__dirname}/boilerplate/App/Images`, `${process.cwd()}/public/Images`, {
     overwrite: true,
     matching: '!*.ejs'
   })

@@ -1,12 +1,9 @@
-# Ignite IR Boilerplate
-
-[![Build Status](https://semaphoreci.com/api/v1/ir/ignite-ir-boilerplate/branches/master/badge.svg)](https://semaphoreci.com/ir/ignite-ir-boilerplate)
-
+# Ignite Web Boilerplate
 
 
 ## The latest and greatest boilerplate for our opinions
 
-This is the boilerplate which is based on [Infinite Red](https://infinite.red)'s Ignite project. We use it as a way to test bleeding-edge changes to our React Web stack.
+This is the web boilerplate which is based on [Infinite Red](https://infinite.red)'s Ignite project. We use it as a way to test bleeding-edge changes to our React Web stack.
 
 Currently includes:
 

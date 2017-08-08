@@ -4,9 +4,9 @@
 
 
 
-## The latest and greatest boilerplate for Infinite Red opinions
+## The latest and greatest boilerplate for our opinions
 
-This is the boilerplate that [Infinite Red](https://infinite.red) uses as a way to test bleeding-edge changes to our React Native stack.
+This is the boilerplate that we use as a way to test bleeding-edge changes to our React Native stack.
 
 Currently includes:
 
@@ -128,4 +128,4 @@ This folder (located as a sibling to `App`) contains sample Jest snapshot and un
 
 ## Premium Support
 
-[Ignite CLI](https://infinite.red/ignite) and [Ignite IR Boilerplate](https://github.com/infinitered/ignite-ir-boilerplate), as open source projects, are free to use and always will be. [Infinite Red](https://infinite.red/) offers premium Ignite CLI support and general mobile app design/development services. Email us at [hello@infinite.red](mailto:hello@infinite.red) to get in touch with us for more details.
+[Ignite CLI](https://infinite.red/ignite) and [Ignite IR Boilerplate](https://github.com/infinitered/ignite-ir-boilerplate), as open source projects, are free to use and always will be.

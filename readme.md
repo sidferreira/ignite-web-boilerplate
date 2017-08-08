@@ -128,4 +128,4 @@ This folder (located as a sibling to `App`) contains sample Jest snapshot and un
 
 ## Premium Support
 
-[Ignite CLI](https://infinite.red/ignite) and [Ignite IR Boilerplate](https://github.com/infinitered/ignite-ir-boilerplate), as open source projects, are free to use and always will be.  Since this is an open source project the current developers nor Infinite Red offer any premium support for this project at this time.
+[Ignite CLI](https://infinite.red/ignite), [Ignite IR Boilerplate](https://github.com/infinitered/ignite-ir-boilerplate) and  [Ignite Web Boilerplate](https://github.com/sidferreira/ignite-web-boilerplate), as open source projects, are free to use and always will be. Since this is an open source project the current developers nor Infinite Red offer any premium support for this project at this time.
